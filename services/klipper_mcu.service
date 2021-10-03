@@ -1,0 +1,16 @@
+#Systemd service file for klipper_mcu
+[Unit]
+Description=Starts klipper_mcu on startup
+After=network.target
+Before=klipper.service
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=klipper.service
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/klipper_mcu -r
+Restart=always
+RestartSec=10
