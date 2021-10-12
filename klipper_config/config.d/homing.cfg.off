@@ -1,4 +1,5 @@
 ##  USE either safe homing or homing override
+# TODO this is now in macros.d/klicky-probe.cfg
 
 [safe_z_home]
 ##	XY Location of the Z Endstop Switch
