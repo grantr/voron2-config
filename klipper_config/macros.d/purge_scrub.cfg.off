@@ -1,7 +1,7 @@
 [gcode_macro PURGE_SCRUB]
-variable_min_scrub_x: 255
-variable_max_scrub_x: 292
-variable_purge_x: 300
+variable_min_scrub_x: 50
+variable_max_scrub_x: 80
+variable_purge_x: 0
 variable_scrub_height: 3
 variable_safe_height: 10
 variable_purge_temp_min: 190
@@ -38,8 +38,6 @@ gcode:
       {% endif %}
     {% endfor %}
 
-    #G0 X180 Y300     F3200	; scrub left off brush
-    G0 X300 F3200
     G0           Z{safe_height} F6000	; Move up and center
 
     RESTORE_GCODE_STATE NAME=clean_nozzle

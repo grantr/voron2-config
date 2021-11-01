@@ -24,3 +24,4 @@ gcode_files/*
 telegram.conf
 !webcam.txt
 !nginx-site.conf
+mooncord.json
