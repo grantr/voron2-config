@@ -21,12 +21,12 @@ scripts/flash-sdcard.sh /dev/ttyACM0 fysetc-spider-v1
 sudo systemctl start klipper
 
 # TODO QT Py
-rm -f .config
-ln -s qtpy.config .config
-make clean
-make -j5
-sudo systemctl stop klipper
-make flash FLASH_DEVICE=/dev/ttyACM1
+#rm -f .config
+#ln -s qtpy.config .config
+#make clean
+#make -j5
+#sudo systemctl stop klipper
+#make flash FLASH_DEVICE=/dev/ttyACM1
 
 rm -f .config
 popd
