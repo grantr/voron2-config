@@ -1,0 +1,28 @@
+# Only use this for measure_thermal_behavior.py
+[probe]
+pin: PA3
+x_offset: 0
+y_offset: 19.75 # Klicky probe
+z_offset: 6.42 # Klicky probe
+speed: 7.5
+lift_speed: 30.0
+samples: 1
+samples_result: median
+sample_retract_dist: 5
+samples_tolerance: 0.05
+samples_tolerance_retries: 10
+
+[bed_mesh]
+speed: 300
+horizontal_move_z: 15
+mesh_min: 30,30
+mesh_max: 270,270
+probe_count: 7,7
+mesh_pps: 2,2
+relative_reference_index: 24
+algorithm: bicubic
+bicubic_tension: 0.2
+move_check_distance: 3.0
+split_delta_z: .010
+fade_start: 1.0 
+fade_end: 5.0
