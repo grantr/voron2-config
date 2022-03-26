@@ -1,4 +1,6 @@
 #[mcu qtpy]
+## Qt Py SAMD21 on X gantry
+#serial: /dev/serial/by-id/usb-Klipper_samd21e18a_B75E8EA94C51535020312E372C1F18FF-if00
 
 #[neopixel gantry]
 #pin: qtpy:PA18

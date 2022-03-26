@@ -20,7 +20,7 @@ sudo systemctl stop klipper
 scripts/flash-sdcard.sh /dev/ttyACM0 fysetc-spider-v1
 sudo systemctl start klipper
 
-# TODO QT Py
+# ERCF (Qt Py SAMD21, requires double clicking reset button. LED will light red then green)
 #rm -f .config
 #ln -s qtpy.config .config
 #make clean
