@@ -1,3 +1,4 @@
+# Disabled because z_thermal_adjust takes over the pin
 [temperature_sensor frame]
 sensor_pin: PC2
 sensor_type: PT1000
