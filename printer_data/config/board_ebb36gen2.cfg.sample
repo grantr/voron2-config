@@ -11,26 +11,26 @@ serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
 
 [temperature_sensor EBB36]
 sensor_type: Generic 3950
-sensor_pin: EBB:PA0
+sensor_pin: toolhead:PA0
 pullup_resistor: 2200
 
 [lis2dw]
-cs_pin: EBB:PB1
+cs_pin: toolhead:PB1
 spi_bus:spi2_PB2_PB11_PB10
 axes_map: x,y,z
 
 [extruder]
-step_pin: EBB:PB14
-dir_pin: EBB:PA8
-enable_pin: !EBB:PB6
+step_pin: toolhead:PB14
+dir_pin: toolhead:PA8
+enable_pin: !toolhead:PB6
 microsteps: 16
 rotation_distance: 33.500
 nozzle_diameter: 0.400
 filament_diameter: 1.750
-heater_pin: EBB:PB4
+heater_pin: toolhead:PB4
 sensor_type: EPCOS 100K B57560G104F
 pullup_resistor: 2200
-sensor_pin: EBB:PA3
+sensor_pin: toolhead:PA3
 control: pid
 pid_Kp: 21.527
 pid_Ki: 1.063
@@ -39,41 +39,41 @@ min_temp: 0
 max_temp: 250
 
 [tmc2209 extruder]
-uart_pin: EBB:PB3
+uart_pin: toolhead:PB3
 run_current: 0.650
 stealthchop_threshold: 999999
 
 #[filament_switch_sensor fil_det]
-#switch_pin: EBB:PD0
+#switch_pin: toolhead:PD0
 
 [fan]
-pin: EBB:PD3
+pin: toolhead:PD3
 
 [heater_fan hotend_fan]
-pin: EBB:PA5
+pin: toolhead:PA5
 heater: extruder
 heater_temp: 50.0
 
 #[heater_fan 3w_fan2]
-#pin: EBB:PD2
-#tachometer_pin: EBB:PA4
+#pin: toolhead:PD2
+#tachometer_pin: toolhead:PA4
 
 #[neopixel hotend_rgb]
-#pin: EBB:PC7
+#pin: toolhead:PC7
 
 #[bltouch]
-#sensor_pin: ^!EBB:PB8
-#control_pin: EBB:PB5
+#sensor_pin: ^!toolhead:PB8
+#control_pin: toolhead:PB5
 
 #[output_pin rled]
-#pin:EBB:PA2
+#pin:toolhead:PA2
 
 #[temperature_sensor BME280]
 #sensor_type: BME280
 #i2c_mcu: EBB
 ##i2c_bus: i2c3_PA7_PA6
-#i2c_software_scl_pin: EBB:PA7
-#i2c_software_sda_pin: EBB:PA6
+#i2c_software_scl_pin: toolhead:PA7
+#i2c_software_sda_pin: toolhead:PA6
 
-#endstop_pin: EBB:PA15
-#diag_pin: ^EBB:PD1
+#endstop_pin: toolhead:PA15
+#diag_pin: ^toolhead:PD1
