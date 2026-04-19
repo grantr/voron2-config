@@ -12,8 +12,8 @@ ercf_calib_7 = 0.998541442025
 ercf_calib_8 = 1.00624793607
 ercf_calib_9 = 1.0
 ercf_calib_ref = 853.264229
-filament_used = 5325247.079600164
-filterusetime = 300404
-lastservicetime = 2306798
-totalprintingtime = 3580047
+filament_used = 5333708.060610161
+filterusetime = 303957
+lastservicetime = 2310351
+totalprintingtime = 3583600
 
