@@ -6,7 +6,7 @@
 # See docs/Config_Reference.md for a description of parameters.
 
 [mcu toolhead]
-#canbus_uuid=a62a88bb28e3
+canbus_uuid=fbb962169897
 
 [temperature_sensor EBB36]
 sensor_type: Generic 3950
