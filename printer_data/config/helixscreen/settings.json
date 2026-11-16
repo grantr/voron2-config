@@ -1,10 +1,9 @@
 {
   "active_printer_id": "default",
   "appearance": {
-    "show_widget_labels": true,
-    "toolhead_style": 2
+    "show_widget_labels": true
   },
-  "config_version": 17,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -12,6 +11,8 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "sleep_sec": 600,
     "timezone": "America/Los_Angeles"
   },
@@ -27,6 +28,7 @@
       "d": 0.0,
       "e": 1.0,
       "f": 0.0,
+      "recheck_pending": false,
       "valid": false
     },
     "jitter_threshold": 5,
@@ -40,9 +42,6 @@
     "protocol": "ipp"
   },
   "language": "en",
-  "led": {
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "material_overrides": {
     "ABS": {
@@ -174,13 +173,11 @@
       }
     ]
   },
-  "printer": {
-    "leds": {
-      "startup_brightness": null
-    }
-  },
   "printers": {
     "default": {
+      "appearance": {
+        "toolhead_style": 2
+      },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
         "load_filament": {
@@ -222,9 +219,7 @@
           "total_weight_g": 12.05670166015625
         }
       },
-      "filament_sensors": {
-        "sensors": null
-      },
+      "filament_sensors": {},
       "hardware": {
         "expected": [
           "heater_bed",
@@ -608,9 +603,7 @@
         ]
       },
       "printer_name": "V2.3004",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
