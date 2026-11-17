@@ -200,7 +200,7 @@
       "extra_sensors": {},
       "fans": {
         "chamber": "fan_generic bed_fans",
-        "exhaust": "fan_generic nevermore",
+        "exhaust": "fan_generic exhaust_fan",
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
@@ -257,7 +257,7 @@
             "temperature_sensor chamber",
             "temperature_sensor cartographer_coil"
           ],
-          "timestamp": "2026-06-04T04:55:11Z"
+          "timestamp": "2026-11-17T04:35:46Z"
         },
         "optional": []
       },
@@ -266,6 +266,12 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "LED",
+          "LIGHT",
+          "NOZZLE_LED",
+          "SET_NOZZLE_LEDS"
+        ],
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -280,7 +286,40 @@
         "last_color": "#FFFFFF",
         "last_white": 0.0,
         "led_on_at_start": false,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Nozzle Led",
+            "off_macro": "NOZZLE_LED_OFF",
+            "on_macro": "NOZZLE_LED_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Light",
+            "off_macro": "LIGHT_OFF",
+            "on_macro": "LIGHT_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "LED",
+            "off_macro": "LED_OFF",
+            "on_macro": "LED_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "neopixel toolhead_leds",
