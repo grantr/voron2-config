@@ -246,18 +246,18 @@
             "extruder"
           ],
           "leds": [
-            "neopixel toolhead_leds",
-            "neopixel chamber_leds"
+            "neopixel chamber_leds",
+            "neopixel toolhead_leds"
           ],
           "sensors": [
+            "temperature_sensor cartographer_coil",
             "temperature_sensor rpi",
             "temperature_sensor toolhead_board",
             "temperature_sensor toolhead_mcu",
             "temperature_sensor cartographer",
-            "temperature_sensor chamber",
-            "temperature_sensor cartographer_coil"
+            "temperature_sensor chamber"
           ],
-          "timestamp": "2026-11-19T06:26:13Z"
+          "timestamp": "2026-11-19T06:54:01Z"
         },
         "optional": []
       },
