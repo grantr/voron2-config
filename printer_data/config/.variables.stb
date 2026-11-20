@@ -2,5 +2,11 @@
 filament_used = 6450484.651921204
 filterusetime = 741761
 lastservicetime = 2748155
+mmu__revision = 1
+mmu_state_gate_map_units = [['unit0', 1]]
+mmu_state_gate_selected = 0
+mmu_state_tool_selected = 0
+mmu_unit0_bowden_lengths = [-1]
+mmu_unit0_gear_rotation_distances = [-1]
 totalprintingtime = 4021404
-mmu__revision = 0
+
