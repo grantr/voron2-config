@@ -1,4 +1,4 @@
-CONFIG_HAPPY_HARE_VERSION=""
+CONFIG_HAPPY_HARE_VERSION="4.2.0"
 CONFIG_PARAM_STATE_MIGRATION="{}" #~DEFAULT~#
 CONFIG_MAX_GATES=12
 CONFIG_MMU_UNITS="unit0"
@@ -542,7 +542,6 @@ CONFIG_CHOICE_NFC_READER_I2C_BUS_SLB_I2C2_PB10_PB11_0=y #~DEFAULT~#
 # CONFIG_BOARD_TYPE_OTHER is not set
 # CONFIG_BOARD_TYPE_MANUAL is not set
 #   Name
-#     Klipper object name: unit0  (rename with './install.sh -i', REPLACE mode)
 CONFIG_PARAM_DISPLAY_NAME="EMU"
 #   end of Name
 #   MMU Features / Additions
