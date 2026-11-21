@@ -2,12 +2,12 @@
 filament_used = 6486252.927611212
 filterusetime = 755047
 lastservicetime = 2761441
-mmu__revision = 145
+mmu__revision = 146
 mmu_extruder_state_filament_remaining = 0
 mmu_extruder_state_filament_remaining_color = '#808182E3'
 mmu_extruder_state_filament_remaining_material = ''
 mmu_extruder_state_retracted_length = 5.0
-mmu_state_filament_pos = -1
+mmu_state_filament_pos = 0
 mmu_state_filament_remaining = 0
 mmu_state_filament_remaining_color = '#808182E3'
 mmu_state_gate_color = ['']
@@ -29,9 +29,9 @@ mmu_state_last_tool = 0
 mmu_state_sensor_enabled = {}
 mmu_state_tool_selected = 0
 mmu_statistics_counters = {'mmu_restarts': {'count': 24, 'limit': -1, 'warning': ''}}
-mmu_statistics_swaps = {'pre_unload': 0.3, 'post_unload': 0.3, 'unload': 4.17}
+mmu_statistics_swaps = {'pre_unload': 0.6, 'post_unload': 0.6, 'unload': 8.69}
 mmu_unit0_bowden_lengths = [-1]
 mmu_unit0_gear_rotation_distances = [22.6408]
-mmu_unit0_statistics_gate_0 = {'pauses': 0, 'loads': 0, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 1, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 0, 'unload_failures': 0, 'quality': -1.0}
+mmu_unit0_statistics_gate_0 = {'pauses': 0, 'loads': 0, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 2, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 0, 'unload_failures': 0, 'quality': -1.0}
 totalprintingtime = 4034690
 
