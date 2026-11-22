@@ -50,7 +50,7 @@
     }
   },
   "motion": {
-    "jog_mode": 0
+    "jog_mode": 1
   },
   "print_start_history": {
     "entries": [
@@ -271,7 +271,7 @@
             "temperature_sensor cartographer",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-11-22T05:26:30Z"
+          "timestamp": "2026-11-22T05:37:21Z"
         },
         "optional": []
       },
