@@ -1,0 +1,713 @@
+{
+  "active_printer_id": "default",
+  "appearance": {
+    "show_widget_labels": true
+  },
+  "config_version": 23,
+  "dark_mode": true,
+  "display": {
+    "bed_mesh_render_mode": 0,
+    "dim_brightness": 30,
+    "dim_sec": 300,
+    "drm_device": "",
+    "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
+    "sleep_sec": 600,
+    "timezone": "America/Los_Angeles"
+  },
+  "gcode_viewer": {
+    "shading_model": "phong",
+    "tube_sides": 4
+  },
+  "input": {
+    "calibration": {
+      "a": 1.0,
+      "b": 0.0,
+      "c": 0.0,
+      "d": 0.0,
+      "e": 1.0,
+      "f": 0.0,
+      "recheck_pending": false,
+      "valid": false
+    },
+    "jitter_threshold": 5,
+    "scroll_limit": 10,
+    "scroll_throw": 25,
+    "touch_device": ""
+  },
+  "label_printer": {
+    "address": "192.168.86.85",
+    "port": 631,
+    "protocol": "ipp"
+  },
+  "language": "en",
+  "log_path": "/tmp/helixscreen.log",
+  "material_overrides": {
+    "ABS": {
+      "nozzle_max": 240,
+      "preheat_macro": "PREHEAT_CHAMBER"
+    }
+  },
+  "motion": {
+    "jog_mode": 1
+  },
+  "print_start_history": {
+    "entries": [
+      {
+        "phases": {
+          "7": 231
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778455260,
+        "total": 265
+      },
+      {
+        "phases": {
+          "7": 134
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778457893,
+        "total": 177
+      },
+      {
+        "phases": {
+          "7": 107
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778458829,
+        "total": 163
+      },
+      {
+        "phases": {
+          "7": 85
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778460779,
+        "total": 137
+      },
+      {
+        "phases": {
+          "2": 19,
+          "7": 202
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778461410,
+        "total": 247
+      },
+      {
+        "phases": {
+          "7": 82
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778462437,
+        "total": 134
+      },
+      {
+        "phases": {
+          "7": 37
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778463559,
+        "total": 123
+      },
+      {
+        "phases": {
+          "2": 118,
+          "7": 62
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778472833,
+        "total": 217
+      },
+      {
+        "phases": {
+          "2": 125,
+          "7": 35
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778817901,
+        "total": 1181
+      },
+      {
+        "phases": {
+          "2": 135,
+          "7": 66
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778956351,
+        "total": 1703
+      },
+      {
+        "phases": {
+          "7": 207
+        },
+        "temp_bucket": 2,
+        "timestamp": 1778805496,
+        "total": 265
+      },
+      {
+        "phases": {
+          "2": 155,
+          "7": 76
+        },
+        "temp_bucket": 2,
+        "timestamp": 1778819801,
+        "total": 373
+      },
+      {
+        "phases": {
+          "7": 260
+        },
+        "temp_bucket": 2,
+        "timestamp": 1778821543,
+        "total": 499
+      },
+      {
+        "phases": {
+          "7": 106
+        },
+        "temp_bucket": 2,
+        "timestamp": 1778961832,
+        "total": 554
+      }
+    ]
+  },
+  "printers": {
+    "default": {
+      "appearance": {
+        "toolhead_style": 2
+      },
+      "default_macros": {
+        "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
+        "load_filament": {
+          "gcode": "LOAD_FILAMENT",
+          "label": "Load"
+        },
+        "macro_1": {
+          "gcode": "HELIX_CLEAN_NOZZLE",
+          "label": "Clean Nozzle"
+        },
+        "macro_2": {
+          "gcode": "HELIX_BED_MESH_IF_NEEDED",
+          "label": "Bed Level"
+        },
+        "unload_filament": {
+          "gcode": "UNLOAD_FILAMENT",
+          "label": "Unload"
+        }
+      },
+      "extra_sensors": {},
+      "fans": {
+        "chamber": "fan_generic bed_fans",
+        "exhaust": "fan_generic exhaust_fan",
+        "hotend": "heater_fan hotend_fan",
+        "part": "fan"
+      },
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 0,
+          "brand": "KVP",
+          "catalog_id": "",
+          "color_rgb": 8421504,
+          "material": "ABS",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "product_name": "",
+          "remaining_weight_g": 0.0,
+          "spool_name": "KVP ABS - Metallic Gray",
+          "spoolman_id": 6,
+          "total_weight_g": 12.106250762939453
+        }
+      },
+      "filament_sensors": {},
+      "hardware": {
+        "expected": [
+          "heater_bed",
+          "extruder",
+          "fan",
+          "heater_fan hotend_fan",
+          "neopixel chamber",
+          "heater_fan controller_fan1",
+          "heater_fan controller_fan2",
+          "fan_generic exhaust_fan"
+        ],
+        "last_snapshot": {
+          "fans": [
+            "fan_generic _unit0_fan0",
+            "fan",
+            "heater_fan hotend_fan",
+            "heater_fan controller_fan1",
+            "heater_fan controller_fan2",
+            "fan_generic exhaust_fan",
+            "fan_generic bed_fans"
+          ],
+          "filament_sensors": [
+            "filament_switch_sensor extruder",
+            "filament_switch_sensor toolhead",
+            "filament_switch_sensor mmu_entry_0",
+            "filament_switch_sensor mmu_exit_0",
+            "filament_switch_sensor filament_compression",
+            "filament_switch_sensor filament_tension"
+          ],
+          "heaters": [
+            "heater_bed",
+            "extruder"
+          ],
+          "leds": [
+            "neopixel _unit0_gate0_leds",
+            "neopixel _unit0_gate0_box",
+            "neopixel chamber",
+            "neopixel toolhead_leds"
+          ],
+          "sensors": [
+            "temperature_sensor unit0_Env0",
+            "temperature_sensor _unit0_mcu0",
+            "temperature_sensor cartographer_coil",
+            "temperature_sensor rpi",
+            "temperature_sensor toolhead_board",
+            "temperature_sensor toolhead_mcu",
+            "temperature_sensor cartographer",
+            "temperature_sensor chamber"
+          ],
+          "timestamp": "2026-11-22T03:53:12Z"
+        },
+        "optional": []
+      },
+      "heaters": {
+        "bed": "heater_bed",
+        "hotend": "extruder"
+      },
+      "leds": {
+        "auto_paired_bases": [
+          "LED",
+          "LIGHT",
+          "NOZZLE_LED",
+          "SET_NOZZLE_LEDS"
+        ],
+        "color_presets": [
+          "#FFFFFF",
+          "#FFD700",
+          "#FF6B35",
+          "#4FC3F7",
+          "#FF4444",
+          "#66BB6A",
+          "#9C27B0",
+          "#00BCD4"
+        ],
+        "last_brightness": 100,
+        "last_color": "#FFFFFF",
+        "last_white": 0.0,
+        "led_on_at_start": false,
+        "macro_devices": [
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Nozzle Led",
+            "off_macro": "NOZZLE_LED_OFF",
+            "on_macro": "NOZZLE_LED_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Light",
+            "off_macro": "LIGHT_OFF",
+            "on_macro": "LIGHT_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "LED",
+            "off_macro": "LED_OFF",
+            "on_macro": "LED_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
+        "selected": [],
+        "selected_strips": [
+          "neopixel toolhead_leds",
+          "neopixel chamber_leds"
+        ],
+        "startup_brightness": 80,
+        "strip": "neopixel chamber"
+      },
+      "moonraker_api_key": false,
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": 7125,
+      "panel_widgets": {
+        "home": {
+          "main_page_index": 0,
+          "next_page_id": 1,
+          "pages": [
+            {
+              "id": "main",
+              "widgets": [
+                {
+                  "col": 0,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "printer_image",
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 0,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "print_status",
+                  "row": 2,
+                  "rowspan": 2
+                },
+                {
+                  "col": 2,
+                  "colspan": 4,
+                  "enabled": true,
+                  "id": "tips",
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "shutdown",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "lock",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "config": {
+                    "device": "__all__",
+                    "icon": "power_cycle"
+                  },
+                  "enabled": false,
+                  "id": "power_device:1",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "network",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 3,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "firmware_restart",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": 4,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "ams",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "tool_switcher",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 5,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "led",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "led_controls",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 2,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "temperature",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "nozzle_temps",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "bed_temperature",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 3,
+                  "enabled": false,
+                  "id": "preheat",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "temp_stack",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "active_spool",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 3,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "filament",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "humidity",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "width_sensor",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "clock",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "job_queue",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": 4,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "clog_detection",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "print_stats",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "gcode_console",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "macros",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "camera",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": 5,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "notifications",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "power_device",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 2,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "fan_stack",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "fan",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "thermistor",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "temp_graph",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "favorite_macro",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "motion",
+                  "row": -1,
+                  "rowspan": 1
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "power": {
+        "selected_devices": [
+          "Extruder"
+        ]
+      },
+      "printer_name": "V2.3004",
+      "probe_sensors": {},
+      "temp_sensors": {
+        "bed": "heater_bed",
+        "hotend": "extruder"
+      },
+      "type": "Voron 2.4",
+      "wizard_completed": true
+    },
+    "show_printer_switcher": false
+  },
+  "safety": {
+    "macro_require_confirmation": false
+  },
+  "standard_macros": {
+    "bed_level": "",
+    "bed_mesh": "",
+    "cancel": "",
+    "clean_nozzle": "",
+    "heat_soak": "PREHEAT_CHAMBER",
+    "load_filament": "",
+    "pause": "",
+    "purge": "",
+    "resume": "",
+    "unload_filament": ""
+  },
+  "telemetry_enabled": true,
+  "theme": {
+    "preset": 0
+  },
+  "thermal": {
+    "rates": {
+      "extruder": {
+        "heat_rate": 6.5922956466674805
+      },
+      "heater_bed": {
+        "heat_rate": 16.46449089050293
+      }
+    }
+  },
+  "tour": {
+    "completed": true,
+    "last_seen_version": 1
+  },
+  "ui": {
+    "cached_grid": {
+      "home": {
+        "rows": 4
+      }
+    }
+  },
+  "update": {
+    "dismissed_version": "0.99.65"
+  },
+  "wizard_completed": true
+}
