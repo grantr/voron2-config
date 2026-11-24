@@ -3,7 +3,7 @@
   "appearance": {
     "show_widget_labels": true
   },
-  "config_version": 23,
+  "config_version": 35,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -56,7 +56,7 @@
     "entries": [
       {
         "phases": {
-          "7": 134
+          "BED_MESH": 134
         },
         "temp_bucket": 1,
         "timestamp": 1778457893,
@@ -64,7 +64,7 @@
       },
       {
         "phases": {
-          "7": 107
+          "BED_MESH": 107
         },
         "temp_bucket": 1,
         "timestamp": 1778458829,
@@ -72,7 +72,7 @@
       },
       {
         "phases": {
-          "7": 85
+          "BED_MESH": 85
         },
         "temp_bucket": 1,
         "timestamp": 1778460779,
@@ -80,8 +80,8 @@
       },
       {
         "phases": {
-          "2": 19,
-          "7": 202
+          "BED_MESH": 202,
+          "HOMING": 19
         },
         "temp_bucket": 1,
         "timestamp": 1778461410,
@@ -89,7 +89,7 @@
       },
       {
         "phases": {
-          "7": 82
+          "BED_MESH": 82
         },
         "temp_bucket": 1,
         "timestamp": 1778462437,
@@ -97,7 +97,7 @@
       },
       {
         "phases": {
-          "7": 37
+          "BED_MESH": 37
         },
         "temp_bucket": 1,
         "timestamp": 1778463559,
@@ -105,8 +105,8 @@
       },
       {
         "phases": {
-          "2": 118,
-          "7": 62
+          "BED_MESH": 62,
+          "HOMING": 118
         },
         "temp_bucket": 1,
         "timestamp": 1778472833,
@@ -114,8 +114,8 @@
       },
       {
         "phases": {
-          "2": 125,
-          "7": 35
+          "BED_MESH": 35,
+          "HOMING": 125
         },
         "temp_bucket": 1,
         "timestamp": 1778817901,
@@ -123,8 +123,8 @@
       },
       {
         "phases": {
-          "2": 135,
-          "7": 66
+          "BED_MESH": 66,
+          "HOMING": 135
         },
         "temp_bucket": 1,
         "timestamp": 1778956351,
@@ -132,7 +132,7 @@
       },
       {
         "phases": {
-          "7": 207
+          "BED_MESH": 207
         },
         "temp_bucket": 2,
         "timestamp": 1778805496,
@@ -140,8 +140,8 @@
       },
       {
         "phases": {
-          "2": 155,
-          "7": 76
+          "BED_MESH": 76,
+          "HOMING": 155
         },
         "temp_bucket": 2,
         "timestamp": 1778819801,
@@ -149,7 +149,7 @@
       },
       {
         "phases": {
-          "7": 260
+          "BED_MESH": 260
         },
         "temp_bucket": 2,
         "timestamp": 1778821543,
@@ -157,7 +157,7 @@
       },
       {
         "phases": {
-          "7": 106
+          "BED_MESH": 106
         },
         "temp_bucket": 2,
         "timestamp": 1778961832,
@@ -165,9 +165,9 @@
       },
       {
         "phases": {
-          "2": 174,
-          "5": 62,
-          "7": 30
+          "BED_MESH": 30,
+          "HOMING": 174,
+          "QGL": 62
         },
         "temp_bucket": 2,
         "timestamp": 1795414933,
@@ -176,9 +176,9 @@
       },
       {
         "phases": {
-          "2": 87,
-          "5": 41,
-          "7": 15
+          "BED_MESH": 15,
+          "HOMING": 87,
+          "QGL": 41
         },
         "temp_bucket": 2,
         "timestamp": 1795418401,
@@ -219,7 +219,7 @@
         "part": "fan"
       },
       "filament": {
-        "external_spool": {
+        "legacy_external_spool": {
           "assigned": true,
           "bed_temp": 0,
           "brand": "KVP",
@@ -361,6 +361,8 @@
       "moonraker_port": 7125,
       "panel_widgets": {
         "home": {
+          "layout_units": "cells_v21",
+          "legacy_rows": 4,
           "main_page_index": 0,
           "next_page_id": 1,
           "pages": [
@@ -394,7 +396,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "shutdown",
                   "row": -1,
                   "rowspan": 1
@@ -402,7 +403,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "lock",
                   "row": -1,
                   "rowspan": 1
@@ -414,7 +414,6 @@
                     "device": "__all__",
                     "icon": "power_cycle"
                   },
-                  "enabled": false,
                   "id": "power_device:1",
                   "row": -1,
                   "rowspan": 1
@@ -422,7 +421,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "network",
                   "row": -1,
                   "rowspan": 1
@@ -446,7 +444,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "tool_switcher",
                   "row": -1,
                   "rowspan": 1
@@ -462,7 +459,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "led_controls",
                   "row": -1,
                   "rowspan": 1
@@ -478,7 +474,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "nozzle_temps",
                   "row": -1,
                   "rowspan": 2
@@ -486,7 +481,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "bed_temperature",
                   "row": -1,
                   "rowspan": 1
@@ -494,7 +488,6 @@
                 {
                   "col": -1,
                   "colspan": 3,
-                  "enabled": false,
                   "id": "preheat",
                   "row": -1,
                   "rowspan": 1
@@ -502,7 +495,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "temp_stack",
                   "row": -1,
                   "rowspan": 1
@@ -510,7 +502,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "active_spool",
                   "row": -1,
                   "rowspan": 1
@@ -526,7 +517,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "humidity",
                   "row": -1,
                   "rowspan": 1
@@ -534,7 +524,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "width_sensor",
                   "row": -1,
                   "rowspan": 1
@@ -542,7 +531,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "clock",
                   "row": -1,
                   "rowspan": 1
@@ -550,7 +538,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "job_queue",
                   "row": -1,
                   "rowspan": 2
@@ -566,7 +553,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "print_stats",
                   "row": -1,
                   "rowspan": 2
@@ -574,7 +560,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "gcode_console",
                   "row": -1,
                   "rowspan": 1
@@ -582,7 +567,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "macros",
                   "row": -1,
                   "rowspan": 1
@@ -590,7 +574,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "camera",
                   "row": -1,
                   "rowspan": 2
@@ -606,7 +589,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "power_device",
                   "row": -1,
                   "rowspan": 1
@@ -622,7 +604,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "fan",
                   "row": -1,
                   "rowspan": 1
@@ -630,7 +611,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "thermistor",
                   "row": -1,
                   "rowspan": 1
@@ -638,7 +618,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "temp_graph",
                   "row": -1,
                   "rowspan": 2
@@ -646,7 +625,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "favorite_macro",
                   "row": -1,
                   "rowspan": 1
@@ -654,7 +632,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "motion",
                   "row": -1,
                   "rowspan": 1
@@ -713,13 +690,7 @@
     "completed": true,
     "last_seen_version": 1
   },
-  "ui": {
-    "cached_grid": {
-      "home": {
-        "rows": 4
-      }
-    }
-  },
+  "ui": {},
   "update": {
     "dismissed_version": "0.99.65"
   },
