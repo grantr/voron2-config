@@ -258,6 +258,7 @@
             "fan_generic bed_fans"
           ],
           "filament_sensors": [
+            "filament_switch_sensor extruder",
             "filament_switch_sensor toolhead",
             "filament_switch_sensor mmu_entry_0",
             "filament_switch_sensor mmu_exit_0",
@@ -284,7 +285,7 @@
             "temperature_sensor cartographer",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-11-24T04:09:10Z"
+          "timestamp": "2026-11-24T04:11:23Z"
         },
         "optional": []
       },
