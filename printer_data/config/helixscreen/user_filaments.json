@@ -1,1 +1,10 @@
-[]
+{
+  "filaments": [],
+  "types": [
+    {
+      "name": "ABS",
+      "nozzle_max": 240,
+      "preheat_macro": "PREHEAT_CHAMBER"
+    }
+  ]
+}
