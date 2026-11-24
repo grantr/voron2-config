@@ -222,21 +222,6 @@
         "part": "fan"
       },
       "filament": {
-        "legacy_external_spool": {
-          "assigned": true,
-          "bed_temp": 0,
-          "brand": "KVP",
-          "catalog_id": "",
-          "color_rgb": 8421504,
-          "material": "ABS",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "product_name": "",
-          "remaining_weight_g": 0.0,
-          "spool_name": "KVP ABS - Metallic Gray",
-          "spoolman_id": 6,
-          "total_weight_g": 12.106250762939453
-        },
         "legacy_tool_import_done": true
       },
       "filament_sensors": {},
@@ -290,7 +275,7 @@
             "temperature_sensor cartographer",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-11-24T06:53:28Z"
+          "timestamp": "2026-11-24T07:27:16Z"
         },
         "optional": []
       },
