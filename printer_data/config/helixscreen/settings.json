@@ -61,14 +61,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 82
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778462437,
-        "total": 134
-      },
-      {
-        "phases": {
           "BED_MESH": 37
         },
         "temp_bucket": 1,
@@ -208,6 +200,19 @@
         "timestamp": 1795583766,
         "total": 311,
         "window": 1
+      },
+      {
+        "heating": 543,
+        "phases": {
+          "BED_MESH": 7,
+          "HOMING": 28,
+          "PURGING": 40,
+          "QGL": 66
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795589658,
+        "total": 527,
+        "window": 1
       }
     ]
   },
@@ -217,8 +222,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_1h57m.gcode\",\"job_id\":\"00009C\",\"object_height\":48.4,\"start_time\":1795583455.2902756}",
-        "outlines": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_1h57m.gcode\",\"objects\":[[[137.4,143.1],[138.4,142.1],[176.4,142.1],[177.4,143.1],[177.4,157.5],[176.4,158.5],[138.4,158.5],[137.4,157.5],[137.4,143.1]],[[122.6,160.5],[175.4,160.5],[177.4,162.5],[177.4,172.5],[175.4,174.5],[170.9,176.4],[144.0,176.4],[122.6,174.5],[122.6,160.5]],[[134.2,126.2],[134.6,125.8],[141.6,123.9],[145.5,123.6],[166.6,123.6],[172.2,131.6],[172.6,138.4],[172.3,138.8],[152.7,140.1],[134.5,130.8],[134.2,126.2]]]}"
+        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m26s.gcode\",\"job_id\":\"00009D\",\"object_height\":48.4,\"start_time\":1795589130.7220848}",
+        "outlines": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m26s.gcode\",\"objects\":[[[137.4,143.1],[138.4,142.1],[176.4,142.1],[177.4,143.1],[177.4,157.5],[176.4,158.5],[138.4,158.5],[137.4,157.5],[137.4,143.1]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -381,20 +386,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 1.646388888889052
+            "used_h": 2.0997222222224563
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 1.646388888889052
+            "used_h": 2.0997222222224563
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 1.646388888889052
+            "used_h": 2.0997222222224563
           }
         },
-        "total_h": 1.646388888889052
+        "total_h": 2.0997222222224563
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -547,10 +552,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.167582392692566
+        "heat_rate": 1.0979782342910767
       },
       "heater_bed": {
-        "heat_rate": 5.65669584274292
+        "heat_rate": 7.35964298248291
       }
     }
   },
