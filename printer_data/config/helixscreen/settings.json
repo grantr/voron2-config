@@ -61,14 +61,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 37
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778463559,
-        "total": 123
-      },
-      {
-        "phases": {
           "BED_MESH": 62,
           "HOMING": 118
         },
@@ -213,6 +205,18 @@
         "timestamp": 1795589658,
         "total": 527,
         "window": 1
+      },
+      {
+        "heating": 492,
+        "phases": {
+          "BED_MESH": 9,
+          "PURGING": 24,
+          "QGL": 31
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795592367,
+        "total": 408,
+        "window": 1
       }
     ]
   },
@@ -222,8 +226,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m26s.gcode\",\"job_id\":\"00009D\",\"object_height\":48.4,\"start_time\":1795589130.7220848}",
-        "outlines": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m26s.gcode\",\"objects\":[[[137.4,143.1],[138.4,142.1],[176.4,142.1],[177.4,143.1],[177.4,157.5],[176.4,158.5],[138.4,158.5],[137.4,157.5],[137.4,143.1]]]}"
+        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m41s.gcode\",\"job_id\":\"00009E\",\"object_height\":48.4,\"start_time\":1795591958.6042554}",
+        "outlines": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m41s.gcode\",\"objects\":[[[101.1,148.5],[101.3,147.1],[102.1,146.5],[112.8,138.5],[114.2,138.7],[137.0,169.1],[136.8,170.5],[125.3,179.1],[123.9,178.9],[101.1,148.5]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -386,20 +390,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 2.0997222222224563
+            "used_h": 2.1938888888891377
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 2.0997222222224563
+            "used_h": 2.1938888888891377
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 2.0997222222224563
+            "used_h": 2.1938888888891377
           }
         },
-        "total_h": 2.0997222222224563
+        "total_h": 2.1938888888891377
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -552,10 +556,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.0979782342910767
+        "heat_rate": 1.1029554605484009
       },
       "heater_bed": {
-        "heat_rate": 7.35964298248291
+        "heat_rate": 7.3620195388793945
       }
     }
   },
