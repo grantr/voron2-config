@@ -208,7 +208,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_1h10m.gcode\",\"job_id\":\"000097\",\"object_height\":48.4,\"start_time\":1795581323.2949562}",
+        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_1h10m.gcode\",\"job_id\":\"000098\",\"object_height\":48.4,\"start_time\":1795581704.1701021}",
         "outlines": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_1h10m.gcode\",\"objects\":[[[137.4,143.1],[138.4,142.1],[176.4,142.1],[177.4,143.1],[177.4,157.5],[176.4,158.5],[138.4,158.5],[137.4,157.5],[137.4,143.1]],[[122.6,160.5],[175.4,160.5],[177.4,162.5],[177.4,172.5],[175.4,174.5],[170.9,176.4],[144.0,176.4],[122.6,174.5],[122.6,160.5]],[[134.2,126.2],[134.6,125.8],[141.6,123.9],[145.5,123.6],[166.6,123.6],[172.2,131.6],[172.6,138.4],[172.3,138.8],[152.7,140.1],[134.5,130.8],[134.2,126.2]]]}"
       },
       "default_macros": {
