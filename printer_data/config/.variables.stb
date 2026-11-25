@@ -2,7 +2,7 @@
 filament_used = 6530914.543944393
 filterusetime = 773261
 lastservicetime = 2779655
-mmu__revision = 381
+mmu__revision = 383
 mmu_extruder_state_filament_remaining = 0
 mmu_extruder_state_filament_remaining_color = ''
 mmu_extruder_state_filament_remaining_material = ''
