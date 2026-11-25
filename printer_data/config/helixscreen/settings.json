@@ -61,14 +61,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 107
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778458829,
-        "total": 163
-      },
-      {
-        "phases": {
           "BED_MESH": 85
         },
         "temp_bucket": 1,
@@ -194,6 +186,19 @@
         "timestamp": 1795574679,
         "total": 583,
         "window": 1
+      },
+      {
+        "heating": 227,
+        "phases": {
+          "BED_MESH": 21,
+          "HOMING": 18,
+          "PURGING": 228,
+          "QGL": 38
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795579791,
+        "total": 446,
+        "window": 1
       }
     ]
   },
@@ -203,7 +208,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Calibration/calibration_coupon_xy_ABS_18m58s.gcode\",\"job_id\":\"000095\",\"object_height\":2.0,\"start_time\":1795578650.9395554}",
+        "last_occupied": "{\"filename\":\"Calibration/calibration_coupon_xy_ABS_18m58s.gcode\",\"job_id\":\"000096\",\"object_height\":2.0,\"start_time\":1795579345.186437}",
         "outlines": "{\"filename\":\"Calibration/calibration_coupon_xy_ABS_18m58s.gcode\",\"objects\":[[[95.5,100.0],[95.8,98.3],[96.8,96.8],[98.3,95.8],[100.0,95.5],[200.0,95.5],[201.7,95.8],[203.2,96.8],[204.2,98.3],[204.5,100.0],[204.5,200.0],[204.2,201.7],[203.2,203.2],[201.7,204.2],[200.0,204.5],[100.0,204.5],[98.3,204.2],[96.8,203.2],[95.8,201.7],[95.5,200.0],[95.5,100.0]]]}"
       },
       "default_macros": {
@@ -367,20 +372,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 0.07888888888888901
+            "used_h": 0.4174999999999877
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 0.07888888888888901
+            "used_h": 0.4174999999999877
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 0.07888888888888901
+            "used_h": 0.4174999999999877
           }
         },
-        "total_h": 0.07888888888888901
+        "total_h": 0.4174999999999877
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -533,10 +538,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.1175318956375122
+        "heat_rate": 1.1893821954727173
       },
       "heater_bed": {
-        "heat_rate": 9.593061447143555
+        "heat_rate": 7.36689567565918
       }
     }
   },
