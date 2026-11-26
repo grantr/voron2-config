@@ -2,7 +2,7 @@
 filament_used = 6535279.478862246
 filterusetime = 775234
 lastservicetime = 2781628
-mmu__revision = 397
+mmu__revision = 398
 mmu_extruder_state_filament_remaining = 25.2
 mmu_extruder_state_filament_remaining_color = '3a3c3b'
 mmu_extruder_state_filament_remaining_material = 'ABS'
@@ -27,7 +27,7 @@ mmu_state_gate_td1_color = ['']
 mmu_state_gate_temperature = [240]
 mmu_state_gate_vendor = ['Sunlu']
 mmu_state_last_tool = 0
-mmu_state_sensor_enabled = {'default:extruder': False}
+mmu_state_sensor_enabled = {}
 mmu_state_tool_selected = 0
 mmu_state_tool_to_gate_map = [0]
 mmu_statistics_counters = {'mmu_restarts': {'count': 53, 'limit': -1, 'warning': ''}, 'cutter_blade': {'count': 11, 'limit': -1, 'warning': ''}}
