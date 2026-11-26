@@ -2,7 +2,7 @@
 filament_used = 6535279.478862246
 filterusetime = 775234
 lastservicetime = 2781628
-mmu__revision = 422
+mmu__revision = 424
 mmu_extruder_state_filament_remaining = 0
 mmu_extruder_state_filament_remaining_color = '3a3c3b'
 mmu_extruder_state_filament_remaining_material = 'ABS'
@@ -30,7 +30,7 @@ mmu_state_last_tool = 0
 mmu_state_sensor_enabled = {}
 mmu_state_tool_selected = 0
 mmu_state_tool_to_gate_map = [0]
-mmu_statistics_counters = {'mmu_restarts': {'count': 58, 'limit': -1, 'warning': ''}, 'cutter_blade': {'count': 13, 'limit': -1, 'warning': ''}}
+mmu_statistics_counters = {'mmu_restarts': {'count': 59, 'limit': -1, 'warning': ''}, 'cutter_blade': {'count': 13, 'limit': -1, 'warning': ''}}
 mmu_statistics_swaps = {'pre_unload': 9.03, 'post_unload': 6.6, 'unload': 656.31, 'pre_load': 4.48, 'load': 569.79, 'form_tip': 147.84, 'post_preload': 2.34, 'purge': 238.83, 'post_load': 3.88, 'total_swaps': 7, 'swaps_since_pause': 1, 'swaps_since_pause_record': 2, 'total': 248.66, 'total_pauses': 19, 'pause': 1826.5}
 mmu_unit0_bowden_home = 'mmu_exit'
 mmu_unit0_bowden_lengths = [1300.0]
