@@ -226,7 +226,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m41s.gcode\",\"job_id\":\"00009F\",\"object_height\":48.4,\"start_time\":1795682199.275262}",
+        "last_occupied": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m41s.gcode\",\"job_id\":\"0000A0\",\"object_height\":48.4,\"start_time\":1795682970.0478704}",
         "outlines": "{\"filename\":\"Voron2/GooseBeltPurger/mmu-completion-orca_ABS_52m41s.gcode\",\"objects\":[[[101.1,148.5],[101.3,147.1],[102.1,146.5],[112.8,138.5],[114.2,138.7],[137.0,169.1],[136.8,170.5],[125.3,179.1],[123.9,178.9],[101.1,148.5]]]}"
       },
       "default_macros": {
