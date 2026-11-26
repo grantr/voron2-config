@@ -15,6 +15,11 @@
       "rate": 25322.994140625,
       "version": "1.1.0 (e82a1bb)"
     },
+    "gcode_preview_rate": {
+      "board": "unknown/4c/100bm/800x480/32bpp",
+      "rate": 41.273468943965014,
+      "version": "1.1.0 (e82a1bb)"
+    },
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "drm/4c/100bm/800x480/32bpp",
