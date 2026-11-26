@@ -2,7 +2,7 @@
 filament_used = 6535279.478862246
 filterusetime = 775234
 lastservicetime = 2781628
-mmu__revision = 394
+mmu__revision = 395
 mmu_extruder_state_filament_remaining = 25.2
 mmu_extruder_state_filament_remaining_color = '3a3c3b'
 mmu_extruder_state_filament_remaining_material = 'ABS'
@@ -16,7 +16,7 @@ mmu_state_gate_filament_name = ['Sunlu Black ABS']
 mmu_state_gate_initial_weight = [1000]
 mmu_state_gate_map_units = [['unit0', 1]]
 mmu_state_gate_material = ['ABS']
-mmu_state_gate_remaining_weight = [1000]
+mmu_state_gate_remaining_weight = [989]
 mmu_state_gate_selected = 0
 mmu_state_gate_speed_override = [100]
 mmu_state_gate_spool_id = [10]
