@@ -1,8 +1,8 @@
 [Variables]
-filament_used = 6539638.999812245
-filterusetime = 777222
-lastservicetime = 2783616
-mmu__revision = 429
+filament_used = 6601993.708808593
+filterusetime = 798708
+lastservicetime = 2805102
+mmu__revision = 432
 mmu_extruder_state_filament_remaining = 28.2
 mmu_extruder_state_filament_remaining_color = '3a3c3b'
 mmu_extruder_state_filament_remaining_material = 'ABS'
@@ -30,11 +30,11 @@ mmu_state_last_tool = 0
 mmu_state_sensor_enabled = {}
 mmu_state_tool_selected = 0
 mmu_state_tool_to_gate_map = [0]
-mmu_statistics_counters = {'mmu_restarts': {'count': 59, 'limit': -1, 'warning': ''}, 'cutter_blade': {'count': 14, 'limit': -1, 'warning': ''}}
-mmu_statistics_swaps = {'pre_unload': 9.33, 'post_unload': 6.9, 'unload': 674.08, 'pre_load': 4.48, 'load': 569.79, 'form_tip': 151.65, 'post_preload': 2.34, 'purge': 238.83, 'post_load': 3.88, 'total_swaps': 7, 'swaps_since_pause': 1, 'swaps_since_pause_record': 2, 'total': 248.66, 'total_pauses': 19, 'pause': 1826.5}
+mmu_statistics_counters = {'mmu_restarts': {'count': 59, 'limit': -1, 'warning': ''}, 'cutter_blade': {'count': 15, 'limit': -1, 'warning': ''}}
+mmu_statistics_swaps = {'pre_unload': 9.63, 'post_unload': 7.2, 'unload': 692.62, 'pre_load': 4.77, 'load': 613.72, 'form_tip': 155.54, 'post_preload': 2.34, 'purge': 267.61, 'post_load': 4.18, 'total_swaps': 8, 'swaps_since_pause': 2, 'swaps_since_pause_record': 2, 'total': 292.87, 'total_pauses': 19, 'pause': 1826.5}
 mmu_unit0_bowden_home = 'mmu_exit'
-mmu_unit0_bowden_lengths = [1300.0]
-mmu_unit0_gear_rotation_distances = [22.6408]
-mmu_unit0_statistics_gate_0 = {'pauses': 19, 'loads': 16, 'load_distance': 20817.8, 'load_delta': 0.0, 'unloads': 32, 'unload_distance': 37148.2, 'unload_delta': 0.0, 'load_failures': 2, 'unload_failures': 8, 'quality': -1.0}
-totalprintingtime = 4056865
+mmu_unit0_bowden_lengths = [1274.5]
+mmu_unit0_gear_rotation_distances = [23.0934]
+mmu_unit0_statistics_gate_0 = {'pauses': 19, 'loads': 17, 'load_distance': 22097.8, 'load_delta': 0.0, 'unloads': 33, 'unload_distance': 38302.7, 'unload_delta': 0.0, 'load_failures': 2, 'unload_failures': 8, 'quality': -1.0}
+totalprintingtime = 4078351
 
